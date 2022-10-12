@@ -23,7 +23,7 @@ reg_organ = r'ФНС|Минфин'
 
 i = 1
 while i != len(contacts_list):
-    print(re.findall(reg_ex4, str(contacts_list[i])))
+    print(re.findall(,reg_ex4 str(contacts_list[i])))
     print(re.findall(reg_organ, str(contacts_list[i])))
     print(re.findall(reg_posish, str(contacts_list[i])))
     print(re.findall(reg_fone, str(contacts_list[i])))
